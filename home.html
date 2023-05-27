@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>Tu mejor amigo en casa</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body onload="filterAnimal('todos')">
+    
+<section class="contenedor">
+
+    <div class="content-center">
+    
+        <div class="buscar">
+            <a href="index.html"><img src="img/chevron-left.svg" alt=""></a>
+            <h1>Buscar</h1>
+            
+        </div>
+        <div class="lupa">
+            <img src="img/search.svg" alt="">
+            <input type="text" placeholder="Buscar" id="buscador">
+        </div>
+        <div id="buttons">
+            
+                <button class="button-value"  active="perros" onclick="filterAnimal('perros')"><div></div>Perros</button>
+                <button class="button-value" active="gatos"   onclick="filterAnimal('gatos')"><div></div>Gatos</button>
+                <button class="button-value" active="todos"   onclick="filterAnimal('todos')"><div></div>Todos</button>
+            </div>
+            
+        
+            <div class="cont-card">
+
+
+                <div class="cards perros todos">
+                    <a href="#">
+                    <div class="img perro1 ">
+                        <img src="img/ivana.png" alt="">
+                    </div>
+                    <h2 class="category">Ivanna</h2>
+                    <p>Corgi</p>
+                    <div class="precio">
+                        <h3>$400</h3>
+                        <img src="img/sm-heart.svg" alt="">
+                    </div>
+                    </a>
+                </div>
+
+                <div class="cards perros todos">
+                    <a href="#">
+                    <div class="img perro2 ">
+                        <img src="img/alvan.png" alt="">
+                    </div>
+                    <h2 class="category">Alvan</h2>
+                    <p>Corgi</p>
+                    <div class="precio">
+                        <h3>$300</h3>
+                        <img src="img/sm-heart.svg" alt="">
+                    </div>
+                    </a>
+                </div>
+
+                <div class="cards perros  todos">
+                    <a href="Karsten.html">
+                    <div class="img perro3 ">
+                        <img src="img/karsten.png" alt="">
+                    </div>
+                    <h2 class="category">karsten</h2>
+                    <p>Bulldog</p>
+                    <div class="precio">
+                        <h3>$200</h3>
+                        <img src="img/sm-heart.svg" alt="">
+                    </div>
+                    </a>
+                </div>
+
+                <div class="cards perros  todos">
+                    <a href="#">
+                    <div class="img perro4 ">
+                        <img src="img/reigner.png" alt="">
+                    </div>
+                    <h2 class="category">Reigner</h2>
+                    <p>Bulldog</p>
+                    <div class="precio">
+                        <h3>$240</h3>
+                        <img src="img/sm-heart.svg" alt="">
+                    </div>
+                    </a>
+                </div>
+
+                
+              
+
+                <div class="cards gatos  todos">
+                    <a href="#">
+                    <div class="img gato1 ">
+                        <img src="img/ariana.png" alt="">
+                    </div>
+                    <h2 class="category">Ariana</h2>
+                    <p>Graycat</p>
+                    <div class="precio">
+                        <h3>$40</h3>
+                        <img src="img/sm-heart.svg" alt="">
+                    </div>
+                    </a>
+                </div>
+
+                <div class="cards gatos  todos">
+                    <a href="#">
+                    <div class="img gato2">
+                        <img src="img/remi.png" alt="">
+                    </div>
+                    <h2 class="category">Remi</h2>
+                    <p>Whitecat</p>
+                    <div class="precio">
+                        <h3>$70</h3>
+                        <img src="img/sm-heart.svg" alt="">
+                    </div>
+                    </a>
+                </div>
+
+                <div class="cards gatos  todos">
+                    <a href="alex.html">
+                    <div class="img gato3">
+                        <img src="img/alex.png" alt="">
+                    </div>
+                    <h2 class="category">Alex</h2>
+                    <p>Siamase</p>
+                    <div class="precio">
+                        <h3>$100</h3>
+                        <img src="img/sm-heart.svg" alt="">
+                    </div>
+                    </a>
+                </div>
+
+                <div class="cards gatos  todos">
+                    <a href="#">
+                    <div class="img gato4">
+                        <img src="img/zoe.png" alt="">
+                    </div>
+                    <h2 class="category">Zoe</h2>
+                    <p>Persian</p>
+                    <div class="precio">
+                        <h3>$80</h3>
+                        <img src="img/sm-heart.svg" alt="">
+                    </div>
+                    </a>
+                </div>
+
+
+              
+                
+
+           
+
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/main1.js"></script>
+
+</body>
+</html>
